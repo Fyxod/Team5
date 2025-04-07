@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Calibri, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/originals/a8/09/94/a8099418b2137e113c808fff5df2dc2a.gif);
+    background-size: contain;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    
+   
+}
+
+@keyframes big {
+    from{
+        font-size: x-large;
+    }
+    to{
+        font-size: xx-large;
+    }
+    
+}
+
+#start{
+    background-color: transparent;
+    text-decoration: none;
+    border-color: transparent;
+    animation-name: big;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: rgb(245, 245, 245);
+}
+
+.heading{
+    font-size: 100px;
+    color: rgb(115, 136, 155);
+}
